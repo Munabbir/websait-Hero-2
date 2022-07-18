@@ -107,8 +107,41 @@ hr{
 .fa-star.tm{
     color: #aeaeae;
 }
+.course-durstion{
+    background-color: #fc9cccb4;
+    padding: 5px;
+    border-radius: 15px;
+}
 .course-info{
     display: flex;
     align-items: center;justify-content: space-between;
 }
 
+/* -------
+media query 
+-------------*/
+/*---------------------
+mobaile divaices
+----------------------*/
+@media only screen and (max-width:688px) {
+    .conteinar{
+        width: 100%;
+    }
+    .players, .blogs, .courses{
+        background-color: #ffc014;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+ 
+  
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .conteinar{
+        width: 100%;
+    }
+    .players, .courses{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
