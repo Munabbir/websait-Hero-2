@@ -144,4 +144,7 @@ mobaile divaices
     .players, .courses{
         grid-template-columns: repeat(2, 1fr);
     }
+    .coursesZ{
+        justify-content: center;
+    }
 }
