@@ -87,6 +87,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
+    justify-items: center;
 }
 .course{
     width: 252px;
@@ -108,7 +109,7 @@ hr{
     color: #aeaeae;
 }
 .course-durstion{
-    background-color: #fc9cccb4;
+    background-color: #fc9ccc5e;
     padding: 5px;
     border-radius: 15px;
 }
@@ -144,7 +145,5 @@ mobaile divaices
     .players, .courses{
         grid-template-columns: repeat(2, 1fr);
     }
-    .coursesZ{
-        justify-content: center;
-    }
+
 }
